@@ -1,0 +1,27 @@
+{
+"type": "FeatureCollection",
+"name": "H-bomb_test-locations_001",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4480" } },
+"features": [
+{ "type": "Feature", "properties": { "DATE": "17-Jun-67", "LATITUDE": 40.8, "LONGITUDE": 89.4 }, "geometry": { "type": "Point", "coordinates": [ 89.4, 40.8 ] } },
+{ "type": "Feature", "properties": { "DATE": "22-Sep-69", "LATITUDE": 41.35, "LONGITUDE": 88.33 }, "geometry": { "type": "Point", "coordinates": [ 88.33, 41.35 ] } },
+{ "type": "Feature", "properties": { "DATE": "29-Sep-69", "LATITUDE": 40.7, "LONGITUDE": 89.3 }, "geometry": { "type": "Point", "coordinates": [ 89.3, 40.7 ] } },
+{ "type": "Feature", "properties": { "DATE": "14-Oct-70", "LATITUDE": 40.72, "LONGITUDE": 89.3 }, "geometry": { "type": "Point", "coordinates": [ 89.3, 40.72 ] } },
+{ "type": "Feature", "properties": { "DATE": "27-Jun-73", "LATITUDE": 40.662, "LONGITUDE": 89.675 }, "geometry": { "type": "Point", "coordinates": [ 89.675, 40.662 ] } },
+{ "type": "Feature", "properties": { "DATE": "17-Jun-74", "LATITUDE": 40.552, "LONGITUDE": 89.463 }, "geometry": { "type": "Point", "coordinates": [ 89.463, 40.552 ] } },
+{ "type": "Feature", "properties": { "DATE": "27-Oct-75", "LATITUDE": 41.433, "LONGITUDE": 88.4 }, "geometry": { "type": "Point", "coordinates": [ 88.4, 41.433 ] } },
+{ "type": "Feature", "properties": { "DATE": "17-Oct-76", "LATITUDE": 41.644, "LONGITUDE": 88.21 }, "geometry": { "type": "Point", "coordinates": [ 88.21, 41.644 ] } },
+{ "type": "Feature", "properties": { "DATE": "17-Nov-76", "LATITUDE": 40.782, "LONGITUDE": 89.661 }, "geometry": { "type": "Point", "coordinates": [ 89.661, 40.782 ] } },
+{ "type": "Feature", "properties": { "DATE": "14-Oct-78", "LATITUDE": 41.419, "LONGITUDE": 88.663 }, "geometry": { "type": "Point", "coordinates": [ 88.663, 41.419 ] } },
+{ "type": "Feature", "properties": { "DATE": "16-Oct-80", "LATITUDE": 41.038, "LONGITUDE": 89.99 }, "geometry": { "type": "Point", "coordinates": [ 89.99, 41.038 ] } },
+{ "type": "Feature", "properties": { "DATE": "4-May-83", "LATITUDE": 41.627, "LONGITUDE": 88.313 }, "geometry": { "type": "Point", "coordinates": [ 88.313, 41.627 ] } },
+{ "type": "Feature", "properties": { "DATE": "6-Oct-83", "LATITUDE": 41.526, "LONGITUDE": 88.218 }, "geometry": { "type": "Point", "coordinates": [ 88.218, 41.526 ] } },
+{ "type": "Feature", "properties": { "DATE": "19-Dec-84", "LATITUDE": 41.624, "LONGITUDE": 88.218 }, "geometry": { "type": "Point", "coordinates": [ 88.218, 41.624 ] } },
+{ "type": "Feature", "properties": { "DATE": "5-Jun-87", "LATITUDE": 41.624, "LONGITUDE": 88.72 }, "geometry": { "type": "Point", "coordinates": [ 88.72, 41.624 ] } },
+{ "type": "Feature", "properties": { "DATE": "29-Sep-88", "LATITUDE": 41.524, "LONGITUDE": 88.154 }, "geometry": { "type": "Point", "coordinates": [ 88.154, 41.524 ] } },
+{ "type": "Feature", "properties": { "DATE": "May-90", "LATITUDE": 41.566, "LONGITUDE": 88.688 }, "geometry": { "type": "Point", "coordinates": [ 88.688, 41.566 ] } },
+{ "type": "Feature", "properties": { "DATE": "16-Aug-90", "LATITUDE": 41.564, "LONGITUDE": 88.77 }, "geometry": { "type": "Point", "coordinates": [ 88.77, 41.564 ] } },
+{ "type": "Feature", "properties": { "DATE": "May-92", "LATITUDE": 41.549, "LONGITUDE": 88.835 }, "geometry": { "type": "Point", "coordinates": [ 88.835, 41.549 ] } },
+{ "type": "Feature", "properties": { "DATE": "25-Sep-92", "LATITUDE": 41.78, "LONGITUDE": 88.413 }, "geometry": { "type": "Point", "coordinates": [ 88.413, 41.78 ] } }
+]
+}
