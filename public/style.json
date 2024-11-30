@@ -70,7 +70,7 @@
         "any",
         ["in", "pmap:kind", "allotments", "village_green", "playground"]
       ],
-      "paint": {"fill-color": "#707070", "fill-opacity": 0.7}
+      "paint": {"fill-color": "#303030", "fill-opacity": 0.7}
     },
     {
       "id": "landuse_hospital",
@@ -78,7 +78,7 @@
       "source": "protomaps",
       "source-layer": "landuse",
       "filter": ["any", ["==", "pmap:kind", "hospital"]],
-      "paint": {"fill-color": "#707070"}
+      "paint": {"fill-color": "#303030"}
     },
     {
       "id": "landuse_industrial",
@@ -86,7 +86,7 @@
       "source": "protomaps",
       "source-layer": "landuse",
       "filter": ["any", ["==", "pmap:kind", "industrial"]],
-      "paint": {"fill-color": "#707070"}
+      "paint": {"fill-color": "#303030"}
     },
     {
       "id": "landuse_school",
@@ -94,7 +94,7 @@
       "source": "protomaps",
       "source-layer": "landuse",
       "filter": ["any", ["in", "pmap:kind", "school", "university", "college"]],
-      "paint": {"fill-color": "#707070"}
+      "paint": {"fill-color": "#303030"}
     },
     {
       "id": "landuse_beach",
@@ -102,7 +102,7 @@
       "source": "protomaps",
       "source-layer": "landuse",
       "filter": ["any", ["in", "pmap:kind", "beach"]],
-      "paint": {"fill-color": "#707070"}
+      "paint": {"fill-color": "#303030"}
     },
     {
       "id": "landuse_zoo",
@@ -110,7 +110,7 @@
       "source": "protomaps",
       "source-layer": "landuse",
       "filter": ["any", ["in", "pmap:kind", "zoo"]],
-      "paint": {"fill-color": "#707070"}
+      "paint": {"fill-color": "#303030"}
     },
     {
       "id": "landuse_military",
@@ -121,7 +121,7 @@
         "any",
         ["in", "pmap:kind", "military", "naval_base", "airfield"]
       ],
-      "paint": {"fill-color": "#707070"}
+      "paint": {"fill-color": "#303030"}
     },
     {
       "id": "natural_wood",
@@ -138,9 +138,9 @@
           ["linear"],
           ["zoom"],
           0,
-          "#707070",
+          "#303030",
           12,
-          "#707070"
+          "#303030"
         ]
       }
     },
@@ -176,7 +176,7 @@
       "source": "protomaps",
       "source-layer": "natural",
       "filter": ["==", "pmap:kind", "sand"],
-      "paint": {"fill-color": "#707070"}
+      "paint": {"fill-color": "#303030"}
     },
     {
       "id": "landuse_aerodrome",
@@ -184,7 +184,7 @@
       "source": "protomaps",
       "source-layer": "landuse",
       "filter": ["any", ["in", "pmap:kind", "aerodrome"]],
-      "paint": {"fill-color": "#707070"}
+      "paint": {"fill-color": "#303030"}
     },
     {
       "id": "transit_runway",

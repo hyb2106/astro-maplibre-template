@@ -3,11 +3,11 @@
   zoom: 4
   pitch: 0
   bearing: 0
-  description: This atlas serves to acknowledge the intentional effects of H-bomb testing in Xinjiang on the Uyghur minority ethnic group, while exploring the nuanced nature of what hydrogen means to a rapidly changing society. Scroll to explore how both the weaponization and energization of hydrogen has shaped China-s cultural landscape. 
+  description: This atlas serves to acknowledge the intentional effects of H-bomb testing on the Uyghur minority ethnic group in the Xinjiang Autonomous Prefecture, while exploring the nuanced nature of what hydrogen means to a rapidly changing society. Scroll to explore how both the weaponization and energization of hydrogen has shaped China-s cultural landscape. 
 
 - title: H-bomb test sites
-  center: [87.6271, 43.7934]
-  zoom: 6
+  center: [89.2363, 40.8293]
+  zoom: 7
   pitch: 0
   bearing: 20
   description: In 1967, China detonated its first H-bomb at Lop Nur, only 18 months after the country had achieved atomic fission as part of the “Two Bombs, One Satellite” program launched by Mao ZeDong. Geolocating the 45 known sites of H-bomb tests around Lop Nur Military base between 1967 and 1996.
@@ -32,12 +32,13 @@
       circle-color: '#826260'
       circle-opacity: 0.8
 
-- title: Landscape
-  center: [87.6271, 43.7934]
-  zoom: 6
+- title: A sparse landscape
+  center: [89.2363, 40.8293]
+  zoom: 5
   pitch: 0
   bearing: 20
   description: The region was chosen on the basis of a risk assessment; it was relatively sparsely populated and benefitted from the open expanses and arid climate of the Gobi Desert. Yet that sparse population was that of the Uyghur people; a minority ethnic group that have been victim to extreme persecution in ongoing human rights violations that the Chinese government commits through forced re-education programs and systematic ethnic cleansing. Adding to these atrocities, decades of health implications from nuclear fallout in the region remain officially unreported and continue to harm residents and the environment.
+
   media: https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRKGvneP-dQ7MkMgWsYKhUcTfyrFSD_iMeYiDk8dnibYxr0D5i0b8HkGTIJDUEVhcMTk_XL2uDZTM-4SOTd
   position: right
 
@@ -47,7 +48,8 @@
   zoom: 4
   pitch: 0
   bearing: 20
-  description: Geolocating hydrogen producing power plants across the country in 2024, and visualizing their sources and yields. 
+  description: As of 2022, China is leading the world's hydrogen production, 60% of which is generated through fossil fuels - namely coal as the cheapest and most widely available resource. In recent years, China has pushed to transition to clean energy. Geolocating hydrogen producing power plants across the country in 2024, and visualizing their sources and yields.
+
   media: https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2024/05/31/b3eda04e-c637-4cbf-a57b-f47cb4222f5d_85aa6ad0.jpg?itok=fudLpIv4&v=1717142825
   position: left
   layers:
@@ -61,3 +63,13 @@
       fill-color: '#c1e2e6'
       fill-opacity: 0.8
 
+- title: Establishing a hydrogen society
+  # center: [114.1694, 22.3193]
+  center: [114.1694, 22.3193]
+  zoom: 7
+  pitch: 0
+  bearing: 20
+  description:  In 2018 at a press conference in Hong Kong, the former Minister of Science and Technology for China, Wan Gang, called on the country to look into establishing a hydrogen society.
+
+  media: https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2019/06/13/15a81a9a-8d65-11e9-b2aa-5ba392ab87ab_image_hires_071626.JPG?itok=jdoEKDjn&v=1560381396
+  position: left
