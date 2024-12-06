@@ -173,7 +173,7 @@
   zoom: 4
   pitch: 0
   bearing: 20
-  description: Hydrogen plants of the 21st century and H-bomb test sites of 20th century are situated at, quite literally, opposite ends of the country.
+  description: Hydrogen plants of the 21st century and H-bomb test sites of 20th century are situated at, quite literally, opposite ends of the country. Although the very same reasons for choosing Xinjiang for testing could be beneficial for hydrogen production, including large open expanses and ample sunlight for PV energy, a clear decision has been made to cluster almost all hydrogen production in the East.
 
   layers: 
   - id: 'hydrogen-plants_all'
@@ -203,7 +203,7 @@
   zoom: 4
   pitch: 0
   bearing: 20
-  description: Eastern China is rapidly developing its hydrogen infrastructure with numerous planned plants to open in the near future.  
+  description: Eastern China is rapidly developing its hydrogen infrastructure with numerous planned plants to open in the near future. Utilizing the area of the country that is best connected, hydrogen is envisioned to transform transportation and pipeline networks. Planned proposals for hydrogen plants reiterate how hydrogen has been both weaponized against a vastly unacknowledged society, and energized towards a well connected society that will be able to reap the material's benefits.
 
   layers:
   - id: 'hydrogen-plants-planned'
@@ -216,3 +216,6 @@
       circle-radius: 6
       circle-color: '#FFFF00'
       circle-opacity: 1
+
+- title: Bibliography
+  description: Author - Holly Baker. Date created - 06 December 2024. Sources - R. Johnston, Database of nuclear tests, China-PRC, 2009.   Baker Institute Energy Map, Hydrogen plants in China, Rice University, 2024.  V. Guptao, “Locating Nuclear Explosions at the Chinese Test Site near Lop Nor”, 1994. J. Matzko, "Geology of the Chinese nuclear test site near Lop Nor, Xinjiang Uygur Autonomous Region, China", Engineering Geology, 1994.   Uyghur Human Rights Project, Annual report, 2020.   Z. Merali, "Did China's Nuclear Tests Kill Thousands and Doom Future Generations?", Scientific American, 2009.   M. Fisk, "Accurate Locations of Nuclear Explosions at the Lop Nor Test Site Using Alignment of Seismograms and IKONOS Satellite Imagery", Bulletin of the Seismological Society of America, 2002.   Columbia School of International and Public Affairs (SIPA), China hydrogen strategy - National vs. Regional plans, 2023.  H. Liqiang, 'Green' hydrogen boosting coal-to-chemical industry, ChinaDaily, 2023.
