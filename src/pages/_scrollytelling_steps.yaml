@@ -3,14 +3,14 @@
   zoom: 4
   pitch: 0
   bearing: 0
-  description: This atlas serves to acknowledge the intentional effects of H-bomb testing on the Uyghur minority ethnic group in the Xinjiang Autonomous Prefecture, while exploring the nuanced nature of what hydrogen means to a rapidly changing society. Scroll to explore how both the weaponization and energization of hydrogen has shaped China-s cultural landscape. 
+  description: Hydrogen has played a defining role in both technological innovation and extreme devastation in China and across the globe. This atlas explores how both the weaponization and energization of hydrogen has shaped China's cultural landscape. In unpacking the nuances behind what hydrogen means to a rapidly changing society, this atlas serves to geolocate and acknowledge the continual effects of H-bomb testing on the Uyghur minority ethnic group in the Xinjiang Autonomous Prefecture. Scroll to learn more about China's hydrogen society.
 
-- title: Early years of H-bomb testng 1964 - 1976
+- title: Early years of H-bomb testng (1964 - 1976)
   center: [89.2363, 40.8293]
   zoom: 7
   pitch: 0
   bearing: 20
-  description: In 1964, China detonated its first H-bomb at Lop Nur, only 18 months after the country had achieved atomic fission as part of the “Two Bombs, One Satellite” program launched by Mao ZeDong. Geolocating the 45 known sites of H-bomb tests around Lop Nur Military base between 1967 and 1996. 
+  description: In 1964, China detonated its first H-bomb at Lop Nur, only 18 months after the country had achieved atomic fission as part of the “Two Bombs, One Satellite” program launched by Mao Zedong. The red dots here geolocate the 24 known sites of H-bomb atmospheric tests around Lop Nur Military base between 1964 and 1976. 
 
   media: https://upload.wikimedia.org/wikipedia/commons/b/be/Test6_1967.gif
   position: left
@@ -31,13 +31,23 @@
       circle-radius: 6
       circle-color: '#FF0000'
       circle-opacity: 1
-  
-- title: H-bomb tests move underground 1976 - 1996
+
+- title: A source of national pride
   center: [89.2363, 40.8293]
   zoom: 7
   pitch: 0
   bearing: 20
-  description: China refused to sign the Partial Test Ban Treaty of 1963, arguing they were still developing their nuclear technology. There were several test ban treaties enacted over the 1970s and 1980s which China too avoided. External pressure forced Lop Nur to move its test operations to solely underground from 1976 onwards.  
+  description: Workers and civilians in the region celebrated tests during the 1960s and 1970s. The government did not issue a word of warning on the devastating effects of radiation.
+
+  media: https://www.atomicarchive.com/media/photographs/testing/chinese/media/project-596-3.jpg
+  position: right
+  
+- title: Testing moves underground (1976 - 1996)
+  center: [89.2363, 40.8293]
+  zoom: 7
+  pitch: 0
+  bearing: 20
+  description: China refused to sign the Partial Test Ban Treaty of 1963, arguing they were still developing their nuclear technology. There were several test ban treaties enacted over the 1970s and 1980s which China too avoided. External pressure forced Lop Nur to move its test operations to solely underground from 1976 onwards. Eventually, China signed the 1996 Comprehensive Nuclear Test Ban Treaty but has not ratified it.
 
   media: https://www.ikff.no/wp-content/uploads/2015/08/Test-lop-Nor.jpg
   position: right
@@ -51,18 +61,8 @@
     persist: true
     paint:
       circle-radius: 6
-      circle-color: '#5b0002'
+      circle-color: '#FF0000'
       circle-opacity: 1
-
-- title: A sparse landscape
-  center: [89.2363, 40.8293]
-  zoom: 5
-  pitch: 0
-  bearing: 20
-  description: The region was chosen on the basis of a risk assessment; it was relatively sparsely populated and benefitted from the open expanses and arid climate of the Gobi Desert. Yet that sparse population was that of the Uyghur people; a minority ethnic group that have been victim to extreme persecution in ongoing human rights violations that the Chinese government commits through forced re-education programs and systematic ethnic cleansing. Adding to these atrocities, decades of health implications from nuclear fallout in the region remain officially unreported and continue to harm residents and the environment.
-
-  media: https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRKGvneP-dQ7MkMgWsYKhUcTfyrFSD_iMeYiDk8dnibYxr0D5i0b8HkGTIJDUEVhcMTk_XL2uDZTM-4SOTd
-  position: right
 
 - title: Active hydrogen power plants 
   # center: [87.6271, 43.7934]
@@ -70,11 +70,8 @@
   zoom: 4
   pitch: 0
   bearing: 20
-  description: Since 2022, China has led global hydrogen production. These cyan dots geolocate all hydrogen producing power plants across the country as of 2024.
+  description: Almost as soon as H-bomb testing ceased, hydrogen was utilized as an energy solution. In the early 2000s, hydrogen was included as a potential solution to reduce oil dependency as part of the CCP's tenth 5-year plan. Since 2022, China has led global hydrogen production. These cyan dots geolocate all hydrogen producing power plants across the country as of 2024.
 
-  media: https://arc-group.com/wp-content/uploads/2022/11/china-hydrogen-energy-780.jpg
-  position: left
-  
   layers:
   - id: 'hydrogen-plants_all'
     url: './data/HYDROGEN-PLANTS_ALL.geojson'
@@ -87,7 +84,7 @@
       circle-color: '#00FFFF'
       circle-opacity: 1
   
-- title: Plants reliant on fossil fuels
+- title: Reliance on fossil fuels
   # center: [87.6271, 43.7934]
   center: [104.1954, 35.8617]
   zoom: 4
@@ -107,7 +104,7 @@
       circle-color: '#2001ff'
       circle-opacity: 1
 
-- title: A widespread shift towards green hydrogen
+- title: A shift towards green hydrogen
   # center: [87.6271, 43.7934]
   center: [104.1954, 35.8617]
   zoom: 4
@@ -126,7 +123,7 @@
       circle-radius: 6
       circle-color: '#01ff37'
       circle-opacity: 1
-
+    
 - title: Establishing a hydrogen society
   # center: [114.1694, 22.3193]
   center: [114.1694, 22.3193]
@@ -136,4 +133,86 @@
   description: In 2018 at a press conference in Hong Kong, the former Minister of Science and Technology for China, Wan Gang, called on the country to look into establishing a hydrogen society.
 
   media: https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2019/06/13/15a81a9a-8d65-11e9-b2aa-5ba392ab87ab_image_hires_071626.JPG?itok=jdoEKDjn&v=1560381396
-  position: left
+  position: right
+
+- title: But who does this society actually include? 
+  center: [89.2363, 40.8293]
+  zoom: 5
+  pitch: 0
+  bearing: 20
+  description: The Xinjiang region was chosen for H-bomb testing on the basis of a risk assessment; it was relatively sparsely populated and benefitted from the open expanses and arid climate of the Gobi Desert. Yet that sparse population is that of the Uyghur people; a minority ethnic group that have been victim to extreme persecution in ongoing human rights violations commited by the Chinese government through forced re-education programs and systematic ethnic cleansing.  
+
+  media: https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRKGvneP-dQ7MkMgWsYKhUcTfyrFSD_iMeYiDk8dnibYxr0D5i0b8HkGTIJDUEVhcMTk_XL2uDZTM-4SOTd
+  position: right
+
+  layers: 
+  - id: 'test-locations-all'
+    url: './data/TEST-LOCATIONS_ALL.geojson'
+    type: 'circle'
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 6
+      circle-color: '#FF0000'
+      circle-opacity: 1
+    
+- title: Xinjiang 'new frontier'
+  center: [89.2363, 40.8293]
+  zoom: 5
+  pitch: 0
+  bearing: 20
+  description: Adding to these atrocities, decades of health implications from nuclear fallout in the region remain officially unreported and continue to harm residents and the environment. Various defectors and whistleblowers cite cancer rates in the Xinjiang region as four times higher than the national average.
+
+  media: https://www.ikff.no/wp-content/uploads/2015/08/Lop-nur-Kina.jpg
+  position: right
+
+- title: Hydrogen disparity
+  # center: [87.6271, 43.7934]
+  center: [104.1954, 35.8617]
+  zoom: 4
+  pitch: 0
+  bearing: 20
+  description: Hydrogen plants of the 21st century and H-bomb test sites of 20th century are situated at, quite literally, opposite ends of the country.
+
+  layers: 
+  - id: 'hydrogen-plants_all'
+    url: './data/HYDROGEN-PLANTS_ALL.geojson'
+    type: 'circle'
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 6
+      circle-color: '#00FFFF'
+      circle-opacity: 1
+  - id: 'test-locations_all'
+    url: './data/TEST-LOCATIONS_ALL.geojson'
+    type: 'circle'
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 6
+      circle-color: '#FF0000'
+      circle-opacity: 1
+
+- title: Future plans for hydrogen
+  # center: [87.6271, 43.7934]
+  center: [104.1954, 35.8617]
+  zoom: 4
+  pitch: 0
+  bearing: 20
+  description: Eastern China is rapidly developing its hydrogen infrastructure with numerous planned plants to open in the near future.  
+
+  layers:
+  - id: 'hydrogen-plants-planned'
+    url: './data/HYDROGEN-PLANTS_PLANNED.geojson'
+    type: 'circle'
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 6
+      circle-color: '#FFFF00'
+      circle-opacity: 1
