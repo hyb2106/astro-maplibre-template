@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "HYDROGEN-PLANTS_PLANNED",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4480" } },
+"features": [
+{ "type": "Feature", "properties": { "NAME": "Sany", "LAT": 31.209615, "LONG": 121.133723, "TYPE": "P" }, "geometry": { "type": "Point", "coordinates": [ 121.133723, 31.209615 ] } },
+{ "type": "Feature", "properties": { "NAME": "HK", "LAT": 22.401169, "LONG": 114.035157, "TYPE": "P" }, "geometry": { "type": "Point", "coordinates": [ 114.035157, 22.401169 ] } },
+{ "type": "Feature", "properties": { "NAME": "Changzou", "LAT": 31.698747, "LONG": 119.867129, "TYPE": "P" }, "geometry": { "type": "Point", "coordinates": [ 119.867129, 31.698747 ] } },
+{ "type": "Feature", "properties": { "NAME": "China State Shipbuilding", "LAT": 32.13466, "LONG": 118.654568, "TYPE": "P" }, "geometry": { "type": "Point", "coordinates": [ 118.654568, 32.13466 ] } },
+{ "type": "Feature", "properties": { "NAME": "Huadian", "LAT": 37.057918, "LONG": 119.170377, "TYPE": "P" }, "geometry": { "type": "Point", "coordinates": [ 119.170377, 37.057918 ] } },
+{ "type": "Feature", "properties": { "NAME": "Ulanqab", "LAT": 41.072575, "LONG": 113.124793, "TYPE": "P" }, "geometry": { "type": "Point", "coordinates": [ 113.124793, 41.072575 ] } },
+{ "type": "Feature", "properties": { "NAME": "Mintal Power", "LAT": 40.719077, "LONG": 108.734038, "TYPE": "P" }, "geometry": { "type": "Point", "coordinates": [ 108.734038, 40.719077 ] } },
+{ "type": "Feature", "properties": { "NAME": "Wushen", "LAT": 39.295722, "LONG": 109.005131, "TYPE": "P" }, "geometry": { "type": "Point", "coordinates": [ 109.005131, 39.295722 ] } },
+{ "type": "Feature", "properties": { "NAME": "Neurizer", "LAT": 37.533087, "LONG": 112.336338, "TYPE": "P" }, "geometry": { "type": "Point", "coordinates": [ 112.336338, 37.533087 ] } },
+{ "type": "Feature", "properties": { "NAME": "Pengwan", "LAT": 37.044162, "LONG": 112.225519, "TYPE": "P" }, "geometry": { "type": "Point", "coordinates": [ 112.225519, 37.044162 ] } },
+{ "type": "Feature", "properties": { "NAME": "Handan", "LAT": 36.53588, "LONG": 114.472134, "TYPE": "P" }, "geometry": { "type": "Point", "coordinates": [ 114.472134, 36.53588 ] } },
+{ "type": "Feature", "properties": { "NAME": "Pidu", "LAT": 30.682881, "LONG": 103.904188, "TYPE": "P" }, "geometry": { "type": "Point", "coordinates": [ 103.904188, 30.682881 ] } },
+{ "type": "Feature", "properties": { "NAME": "Gansu", "LAT": 40.16433, "LONG": 97.171723, "TYPE": "P" }, "geometry": { "type": "Point", "coordinates": [ 97.171723, 40.16433 ] } }
+]
+}

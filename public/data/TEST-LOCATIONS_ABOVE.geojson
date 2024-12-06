@@ -1,0 +1,29 @@
+{
+"type": "FeatureCollection",
+"name": "TEST-LOCATIONS_ABOVE",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4480" } },
+"features": [
+{ "type": "Feature", "properties": { "YEAR": 1964, "MON": "OCT", "DAY": 16, "TIME": "7:00", "SITE": "LN", "LAT": 42.35, "LONG": 88.3, "YIELD (KT)": 22, "TYPE": "AS" }, "geometry": { "type": "Point", "coordinates": [ 88.3, 42.35 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1965, "MON": "MAY", "DAY": 14, "TIME": "2:00", "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": 35, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1966, "MON": "MAY", "DAY": 9, "TIME": "8:00", "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": 250, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1966, "MON": "OCT", "DAY": 27, "TIME": "1:10", "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": 12, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1966, "MON": "DEC", "DAY": 28, "TIME": "4:00", "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": 300, "TYPE": "AS" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1967, "MON": "JUN", "DAY": 17, "TIME": "0:19", "SITE": "LN-D", "LAT": 40.744, "LONG": 89.775, "YIELD (KT)": 3300, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 89.775, 40.744 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1967, "MON": "DEC", "DAY": 24, "TIME": "4:00", "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": 20, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1968, "MON": "DEC ", "DAY": 27, "TIME": "7:30", "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": 3000, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1969, "MON": "SEP", "DAY": 29, "TIME": "8:40", "SITE": "LN-D", "LAT": 40.722, "LONG": 89.515, "YIELD (KT)": 3000, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 89.515, 40.722 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1970, "MON": "OCT", "DAY": 14, "TIME": "7:29", "SITE": "LN-D", "LAT": 40.52, "LONG": 89.779, "YIELD (KT)": 3400, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 89.779, 40.52 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1971, "MON": "NOV", "DAY": 18, "TIME": "6:00", "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": 20, "TYPE": "AS" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1972, "MON": "JAN", "DAY": 7, "TIME": "7:00", "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": 8, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1972, "MON": "MAR", "DAY": 18, "TIME": "6:00", "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": 170, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1973, "MON": "JUN", "DAY": 27, "TIME": "3:59", "SITE": "LN-D", "LAT": 40.7985, "LONG": 89.8091, "YIELD (KT)": 3000, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 89.8091, 40.7985 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1974, "MON": "JUN", "DAY": 17, "TIME": "5:59", "SITE": "LN", "LAT": 40.518, "LONG": 89.619, "YIELD (KT)": 1000, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 89.619, 40.518 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1976, "MON": "JAN", "DAY": 23, "TIME": "6:00", "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": null, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1976, "MON": "SEP", "DAY": 26, "TIME": "6:00", "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": 200, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1976, "MON": "NOV", "DAY": 17, "TIME": "0.25", "SITE": "LN-D", "LAT": 40.696, "LONG": 89.627, "YIELD (KT)": 4000, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 89.627, 40.696 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1977, "MON": "SEP", "DAY": 17, "TIME": "7:00", "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": null, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1978, "MON": "MAR", "DAY": 15, "TIME": "5:00", "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": 11, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1978, "MON": "DEC", "DAY": 14, "TIME": null, "SITE": "LN", "LAT": 41.5, "LONG": 88.5, "YIELD (KT)": null, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 88.5, 41.5 ] } },
+{ "type": "Feature", "properties": { "YEAR": 1980, "MON": "OCT", "DAY": 16, "TIME": "4:30", "SITE": "LN-D", "LAT": 40.719, "LONG": 89.651, "YIELD (KT)": 1000, "TYPE": "A" }, "geometry": { "type": "Point", "coordinates": [ 89.651, 40.719 ] } }
+]
+}

@@ -5,12 +5,12 @@
   bearing: 0
   description: This atlas serves to acknowledge the intentional effects of H-bomb testing on the Uyghur minority ethnic group in the Xinjiang Autonomous Prefecture, while exploring the nuanced nature of what hydrogen means to a rapidly changing society. Scroll to explore how both the weaponization and energization of hydrogen has shaped China-s cultural landscape. 
 
-- title: H-bomb test sites
+- title: Early years of H-bomb testng 1964 - 1976
   center: [89.2363, 40.8293]
   zoom: 7
   pitch: 0
   bearing: 20
-  description: In 1967, China detonated its first H-bomb at Lop Nur, only 18 months after the country had achieved atomic fission as part of the “Two Bombs, One Satellite” program launched by Mao ZeDong. Geolocating the 45 known sites of H-bomb tests around Lop Nur Military base between 1967 and 1996.
+  description: In 1964, China detonated its first H-bomb at Lop Nur, only 18 months after the country had achieved atomic fission as part of the “Two Bombs, One Satellite” program launched by Mao ZeDong. Geolocating the 45 known sites of H-bomb tests around Lop Nur Military base between 1967 and 1996. 
 
   media: https://upload.wikimedia.org/wikipedia/commons/b/be/Test6_1967.gif
   position: left
@@ -20,7 +20,7 @@
   - id: 'h-bomb-test-locations'
   # path to dataset 
   # note anything uploaded in the public/data folder will be uploaded to your site at url/data/file.png
-    url: './data/H-bomb_test-locations_001.geojson'
+    url: './data/TEST-LOCATIONS_ABOVE.geojson'
   # type of symbol
     type: 'circle'
   # type of symbol
@@ -29,8 +29,30 @@
     persist: true
     paint:
       circle-radius: 6
-      circle-color: '#826260'
-      circle-opacity: 0.8
+      circle-color: '#FF0000'
+      circle-opacity: 1
+  
+- title: H-bomb tests move underground 1976 - 1996
+  center: [89.2363, 40.8293]
+  zoom: 7
+  pitch: 0
+  bearing: 20
+  description: China refused to sign the Partial Test Ban Treaty of 1963, arguing they were still developing their nuclear technology. There were several test ban treaties enacted over the 1970s and 1980s which China too avoided. External pressure forced Lop Nur to move its test operations to solely underground from 1976 onwards.  
+
+  media: https://www.ikff.no/wp-content/uploads/2015/08/Test-lop-Nor.jpg
+  position: right
+
+  layers: 
+  - id: 'test-locations-ug'
+    url: './data/TEST-LOCATIONS_UG.geojson'
+    type: 'circle'
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 6
+      circle-color: '#5b0002'
+      circle-opacity: 1
 
 - title: A sparse landscape
   center: [89.2363, 40.8293]
@@ -42,26 +64,68 @@
   media: https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcRKGvneP-dQ7MkMgWsYKhUcTfyrFSD_iMeYiDk8dnibYxr0D5i0b8HkGTIJDUEVhcMTk_XL2uDZTM-4SOTd
   position: right
 
-- title: Hydrogen power plants
+- title: Active hydrogen power plants 
   # center: [87.6271, 43.7934]
   center: [104.1954, 35.8617]
   zoom: 4
   pitch: 0
   bearing: 20
-  description: As of 2022, China is leading the world's hydrogen production, 60% of which is generated through fossil fuels - namely coal as the cheapest and most widely available resource. In recent years, China has pushed to transition to clean energy. Geolocating hydrogen producing power plants across the country in 2024, and visualizing their sources and yields.
+  description: Since 2022, China has led global hydrogen production. These cyan dots geolocate all hydrogen producing power plants across the country as of 2024.
 
-  media: https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2024/05/31/b3eda04e-c637-4cbf-a57b-f47cb4222f5d_85aa6ad0.jpg?itok=fudLpIv4&v=1717142825
+  media: https://arc-group.com/wp-content/uploads/2022/11/china-hydrogen-energy-780.jpg
   position: left
+  
   layers:
-  - id: 'sandy'
-    url: 'https://data.cityofnewyork.us/resource/5xsi-dfpx.geojson'
-    type: 'fill'
+  - id: 'hydrogen-plants_all'
+    url: './data/HYDROGEN-PLANTS_ALL.geojson'
+    type: 'circle'
     data-type: 'geojson'
-    layer-type: 'fill'
-    persist: false
+    layer-type: 'circle'
+    persist: true
     paint:
-      fill-color: '#c1e2e6'
-      fill-opacity: 0.8
+      circle-radius: 6
+      circle-color: '#00FFFF'
+      circle-opacity: 1
+  
+- title: Plants reliant on fossil fuels
+  # center: [87.6271, 43.7934]
+  center: [104.1954, 35.8617]
+  zoom: 4
+  pitch: 0
+  bearing: 20
+  description: 60% of China's hydrogen is generated through fossil fuels, mainly using coal as the cheapest and most widely available resource. The dark blue dots indicate hydrogen produced through the extraction of natural gas (grey hydrogen) or the extraction of coal (brown hydrogen). 
+
+  layers: 
+  - id: 'hydrogen-plants_b-g-b'
+    url: './data/HYDROGEN-PLANTS_B-G-B.geojson'
+    type: 'circle'
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 6
+      circle-color: '#2001ff'
+      circle-opacity: 1
+
+- title: A widespread shift towards green hydrogen
+  # center: [87.6271, 43.7934]
+  center: [104.1954, 35.8617]
+  zoom: 4
+  pitch: 0
+  bearing: 20
+  description: Over recent years, there has been a major shift towards producing hydrogen with renewables. The bright green dots indicate hydrogen produced through renewables such as solar and wind energy. 
+
+  layers: 
+  - id: 'hydrogen-plants_green'
+    url: './data/HYDROGEN-PLANTS_GREEN.geojson'
+    type: 'circle'
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 6
+      circle-color: '#01ff37'
+      circle-opacity: 1
 
 - title: Establishing a hydrogen society
   # center: [114.1694, 22.3193]
@@ -69,7 +133,7 @@
   zoom: 7
   pitch: 0
   bearing: 20
-  description:  In 2018 at a press conference in Hong Kong, the former Minister of Science and Technology for China, Wan Gang, called on the country to look into establishing a hydrogen society.
+  description: In 2018 at a press conference in Hong Kong, the former Minister of Science and Technology for China, Wan Gang, called on the country to look into establishing a hydrogen society.
 
   media: https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/methode/2019/06/13/15a81a9a-8d65-11e9-b2aa-5ba392ab87ab_image_hires_071626.JPG?itok=jdoEKDjn&v=1560381396
   position: left

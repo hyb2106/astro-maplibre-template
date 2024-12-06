@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "HYDROGEN-PLANTS_B-G-B",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4480" } },
+"features": [
+{ "type": "Feature", "properties": { "NAME": "Fujian", "LAT": 25.181153, "LONG": 118.946486, "TYPE": "Grey" }, "geometry": { "type": "Point", "coordinates": [ 118.946486, 25.181153 ] } },
+{ "type": "Feature", "properties": { "NAME": "SCIPIG", "LAT": 30.790386, "LONG": 121.460447, "TYPE": "Grey" }, "geometry": { "type": "Point", "coordinates": [ 121.460447, 30.790386 ] } },
+{ "type": "Feature", "properties": { "NAME": "Air liquide caojing", "LAT": 30.798803, "LONG": 121.477595, "TYPE": "Grey" }, "geometry": { "type": "Point", "coordinates": [ 121.477595, 30.798803 ] } },
+{ "type": "Feature", "properties": { "NAME": "Baowu steel", "LAT": 31.208247, "LONG": 121.511273, "TYPE": "Blue" }, "geometry": { "type": "Point", "coordinates": [ 121.511273, 31.208247 ] } },
+{ "type": "Feature", "properties": { "NAME": "AP Nanjing", "LAT": 32.279907, "LONG": 118.754818, "TYPE": "Grey" }, "geometry": { "type": "Point", "coordinates": [ 118.754818, 32.279907 ] } },
+{ "type": "Feature", "properties": { "NAME": "Shenghong", "LAT": 34.582546, "LONG": 119.513743, "TYPE": "Grey" }, "geometry": { "type": "Point", "coordinates": [ 119.513743, 34.582546 ] } },
+{ "type": "Feature", "properties": { "NAME": "Rizhao", "LAT": 35.488424, "LONG": 119.570184, "TYPE": "Grey" }, "geometry": { "type": "Point", "coordinates": [ 119.570184, 35.488424 ] } },
+{ "type": "Feature", "properties": { "NAME": "Jianlong", "LAT": 43.6206, "LONG": 125.565256, "TYPE": "Brown" }, "geometry": { "type": "Point", "coordinates": [ 125.565256, 43.6206 ] } },
+{ "type": "Feature", "properties": { "NAME": "Greengen", "LAT": 38.890032, "LONG": 117.809061, "TYPE": "Blue" }, "geometry": { "type": "Point", "coordinates": [ 117.809061, 38.890032 ] } },
+{ "type": "Feature", "properties": { "NAME": "Datong", "LAT": 39.961652, "LONG": 113.273219, "TYPE": "Brown" }, "geometry": { "type": "Point", "coordinates": [ 113.273219, 39.961652 ] } },
+{ "type": "Feature", "properties": { "NAME": "Hubai", "LAT": 29.969608, "LONG": 112.124998, "TYPE": "Grey" }, "geometry": { "type": "Point", "coordinates": [ 112.124998, 29.969608 ] } },
+{ "type": "Feature", "properties": { "NAME": "AP Chengdu", "LAT": 30.927628, "LONG": 104.075158, "TYPE": "Grey" }, "geometry": { "type": "Point", "coordinates": [ 104.075158, 30.927628 ] } }
+]
+}
